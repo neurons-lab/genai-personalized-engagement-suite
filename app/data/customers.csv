@@ -1,0 +1,101 @@
+id,name,age,gender,interest
+1,John Smith,35,male,technology
+2,Mary Johnson,42,female,cooking
+3,Robert Williams,29,male,sports
+4,Patricia Brown,51,female,gardening
+5,Michael Davis,19,male,computer games
+6,Susan Garcia,27,female,art
+7,William Miller,62,male,fishing
+8,Elizabeth Wilson,54,female,crafts
+9,David Anderson,44,male,cars
+10,Barbara Thomas,36,female,hiking
+11,Richard Moore,25,male,movies
+12,Linda Taylor,19,female,social media
+13,Daniel Rodriguez,29,male,programming
+14,Lisa Allen,41,female,cooking
+15,Kenneth Martin,57,male,investing
+16,Nancy Martinez,34,female,yoga
+17,Steven Hall,48,male,golf
+18,Karen Young,52,female,gardening
+19,Kevin Hill,38,male,startups
+20,Donna Green,47,female,hiking
+21,George Clark,33,male,travel
+22,Carol White,29,female,art
+23,Edward Thompson,26,male,video games
+24,Ruth Harris,61,female,quilting
+25,Timothy Jackson,54,male,woodworking
+26,Sharon Phillips,44,female,parenting
+27,Jose Lopez,31,male,soccer
+28,Diane Campbell,28,female,nutrition
+29,Larry Robinson,41,male,cycling
+30,Betty Mitchell,19,female,social media
+31,Daniel Lewis,22,male,rock music
+32,Emily Martin,39,female,crafts
+33,Anthony Garcia,17,male,basketball
+34,Helen Rodriguez,57,female,gardening
+35,Donald Turner,62,male,fishing
+36,Dorothy Thomas,29,female,photography
+37,Paul Wilson,41,male,hiking
+38,Sarah Moore,34,female,interior design
+39,Mark Taylor,51,male,investing
+40,Katherine Martinez,27,female,nutrition
+41,Steven Johnson,44,male,woodworking
+42,Margaret Williams,36,female,crafts
+43,Robert Miller,48,male,camping
+44,Lisa Davis,52,female,cooking
+45,Michael Brown,38,male,basketball
+46,Barbara Anderson,47,female,gardening
+47,William Garcia,33,male,social media
+48,Susan Wilson,29,female,art
+49,David Thomas,26,male,programming
+50,Elizabeth Clark,61,female,reading
+51,John Harris,54,male,cars
+52,Mary Jackson,44,female,hiking
+53,Robert Phillips,25,male,anime
+54,Patricia Campbell,19,female,fashion
+55,Michael Mitchell,29,male,cycling
+56,Linda Robinson,41,female,cooking
+57,William Lewis,22,male,video games
+58,Elizabeth Martin,39,female,yoga
+59,David Garcia,17,male,technology
+60,Susan Rodriguez,57,female,politics
+61,John Turner,62,male,fishing
+62,Mary Moore,29,female,photography
+63,Mary Moore,29,female,photography
+64,John Wilson,41,male,cycling
+65,Elizabeth Harris,34,female,nutrition
+66,David Jackson,51,male,woodworking
+67,Susan Lewis,27,female,social media
+68,Robert Martin,44,male,basketball
+69,Patricia Garcia,36,female,cooking
+70,Michael Rodriguez,48,male,investing
+71,Linda Turner,52,female,politics
+72,William Thomas,38,male,cars
+73,Elizabeth Mitchell,47,female,gardening
+74,David Campbell,33,male,travel
+75,John Robinson,29,male,food
+76,Mary Lewis,26,female,dance
+77,Robert Martin,61,male,classical music
+78,Patricia Wilson,54,female,photography
+79,Michael Harris,44,male,basketball
+80,Linda Jackson,36,female,nutrition
+81,William Garcia,48,male,business
+82,Elizabeth Rodriguez,52,female,politics
+83,David Turner,38,male,social media
+84,Susan Thomas,47,female,art
+85,John Mitchell,33,male,video games
+86,Mary Campbell,29,female,cooking
+87,Robert Lewis,26,male,basketball
+88,Patricia Martin,61,female,crafts
+89,Michael Wilson,54,male,golf
+90,Linda Harris,44,female,gardening
+91,William Jackson,36,male,fishing
+92,Elizabeth Garcia,48,female,birdwatching
+93,David Rodriguez,52,male,classical music
+94,Susan Turner,38,female,photography
+95,John Moore,47,female,dance
+96,Mary Taylor,33,male,art
+97,Robert Johnson,29,male,comics
+98,Patricia Williams,26,female,fashion
+99,Michael Miller,61,male,rock music
+100,Linda Davis,54,female,video games
