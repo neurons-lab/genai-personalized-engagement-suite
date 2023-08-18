@@ -1,5 +1,4 @@
 streamlit
-boto3
 pandas
 bedrock-python-sdk/boto3-1.26.162-py3-none-any.whl
 bedrock-python-sdk/botocore-1.29.162-py3-none-any.whl
