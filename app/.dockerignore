@@ -1,0 +1,9 @@
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+.git
+.gitignore
+cdk.*
+deploy.py
+.vscode/*
+media
+bedrock-python-sdk

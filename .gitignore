@@ -62,3 +62,7 @@ Thumbs.db
 cdk.out
 cdk.context.json
 .env
+
+bedrock-python-sdk.zip
+Pipfile
+Pipfile.lock
