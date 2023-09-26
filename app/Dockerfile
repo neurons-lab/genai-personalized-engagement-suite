@@ -1,16 +1,18 @@
-FROM python:3.9
+FROM amazonlinux:2
 WORKDIR /usr/app/src
 
+# update
+RUN yum -y update
+RUN yum -y install python3
+RUN yum -y install python3-pip
 # requirements
 COPY requirements.txt requirements.txt
-RUN pip install --upgrade pip
-RUN pip install --no-cache-dir -r requirements.txt
+RUN python3 -m pip install --upgrade pip
+RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
-# bedrock python sdk
-RUN wget https://d2eo22ngex1n9g.cloudfront.net/Documentation/SDK/bedrock-python-sdk.zip
-RUN unzip bedrock-python-sdk.zip -d bedrock-python-sdk
-RUN pip install "bedrock-python-sdk/$(ls -la bedrock-python-sdk | grep -o 'boto3.*.whl' --color=never)"
-RUN pip install "bedrock-python-sdk/$(ls -la bedrock-python-sdk | grep -o 'botocore.*.whl' --color=never)"
+# BedRock Python SDK
+COPY ./download-dependencies.sh .
+RUN ./download-dependencies.sh
 
 # code
 COPY ./ .
@@ -21,4 +23,6 @@ CMD ["streamlit", "run",\
     "--browser.serverAddress", "0.0.0.0",\
     "--server.enableCORS", "False",\
     "--server.port", "80",\
+    "--theme.base", "light",\
+    "--theme.primaryColor", "purple",\
     "/usr/app/src/app.py"]

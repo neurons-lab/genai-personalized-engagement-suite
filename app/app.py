@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """AWS Bedrock and AI21 Lab with Jurassic-2 Ultra model
 Personalized Email Promo
 Version: 0.1.0

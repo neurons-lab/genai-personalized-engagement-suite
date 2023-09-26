@@ -45,8 +45,8 @@ class AppStack(Stack):
         super().__init__(scope, _id, **kwargs)
 
         # Env
-        zone_name = os.environ.get('ZONE_NAME', 'example.com')
-        domain_name = os.environ.get('DOMAIN_NAME', 'app.example.com')
+        zone_name = os.environ.get('ZONE_NAME', 'neurons-lab-demo.com')
+        domain_name = os.environ.get('DOMAIN_NAME', 'personal-engagement-suite.neurons-lab-demo.com')
         app_path = os.environ.get('APP_PATH', '../app')
         stack_name = os.getenv('STACK_NAME', 'GenAiPESuiteStack')
 
